@@ -1,0 +1,21 @@
+{
+  "name": "cernykafe",
+  "owner": {
+    "name": "cernykafe"
+  },
+  "metadata": {
+    "description": "Skilly pro Claude od cernykafe",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "jvs-statni-sprava",
+      "description": "Jednotný vizuální styl (JVS) české státní správy: prezentace, dokumenty, grafiky a tiskoviny pro ministerstva a úřady.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/jvs-statni-sprava"
+      ]
+    }
+  ]
+}
